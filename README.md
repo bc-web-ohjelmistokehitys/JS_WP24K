@@ -1,4 +1,6 @@
-Materiaali on käännetty ja muokattu Margit Tennosaarin kurssipohjasta. 
+Materiaalit päivittyvät kurssin aikana, kunhan ne saadaan käännettyä.
+
+Materiaali on käännetty ja muokattu Margit Tennosaarin kurssipohjasta.
 
 GNU Free Documentation License (GNU FDL)
 
