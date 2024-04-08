@@ -33,7 +33,9 @@ Javascriptissä on kolme eri muuttujatyyppiä: const, let ja var.
 
 - **Const** on vakiomuuttuja (engl. constant). Kun siihen on kerran laitettu arvo, tätä arvoa ei voi enää ylikirjoittaa. (Huomaa kuitenkin, että arvon sisältöä voi edelleen muuttaa. Esimerkiksi jos const-muuttujaan on laitettu olio tai taulukko, niiden sisältö voi muuttaa. Lisää näistä myöhemmin.)
 
-- **Let** puolestaan on muuttujatyyppi, johon voi sijoittaa uuden arvon miten monta kertaa tahansa. Teknisestä näkökulmasta kaikki muuttujasi voivat hyvin olla let-tyyppisiä – mutta ehkä se const on ihan hyödyllinen, jotta et vahingossa ylikirjoita sellaista minkä ei kuulu olla muokattavissa.
+- **Let** puolestaan on muuttujatyyppi, johon voi sijoittaa uuden arvon miten monta kertaa tahansa.
+
+Teknisestä näkökulmasta kaikki muuttujasi voivat hyvin olla let-tyyppisiä – mutta ehkä se const on ihan hyödyllinen, jotta et vahingossa ylikirjoita sellaista minkä ei kuulu olla muokattavissa.
 
 ## Nimeämisestä
 
