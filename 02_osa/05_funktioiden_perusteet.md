@@ -118,8 +118,8 @@ Kun funktiota määritellään, sille määritellään **parametrit**. Kun funkt
 
 ## Muista nämä kolme asiaa:
 
-1. Jos funktiolle on tarkoitus antaa jotain tietoa käsiteltäväksi, se laitetaan **parametriksi**
-   Alla ne ovat kirjaimet a ja b
+1. Jos funktiolle on tarkoitus antaa jotain tietoa käsiteltäväksi, se laitetaan **parametriksi**. Alla ne ovat kirjaimet **a ja b**
+
    ```js
    function tipCounter(a, b) {
      return a * b;
@@ -127,19 +127,17 @@ Kun funktiota määritellään, sille määritellään **parametrit**. Kun funkt
    tipCounter(140, 1.15);
    ```
 
-````
-2. Jos funktiosta halutaa tietoa ulos, se täytyy **palauttaa**
-Huomaa alla sana return
+2. Jos funktiosta halutaa tietoa ulos, se täytyy **palauttaa**. Huomaa alla sana **return**
+
 ```js
-function tipCounter(a,b){
- return (a * b);
-};
+function tipCounter(a, b) {
+  return a * b;
+}
 
 tipCounter(140, 1.15);
-````
+```
 
-3. Jotta funktio tapahtuu, sitä pitää **kutsua**
-   Huomaa alimpana funktiokutsu
+3. Jotta funktio tapahtuu, sitä pitää **kutsua**. Huomaa alimpana funktiokutsu **tipCounter(140, 1.15)**
    ```js
    function tipCounter(a, b) {
      return a * b;
