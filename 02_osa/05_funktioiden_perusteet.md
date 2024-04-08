@@ -116,7 +116,7 @@ greet("Marjatta"); // Tulostaa "Heippa Marjatta!"
 
 Kun funktiota määritellään, sille määritellään **parametrit**. Kun funktiota kutsutaan ja sille annetaan arvoja, niitä kutsutaan **argumenteiksi**.
 
-## Muista nämä kolme asiaa:
+## Muista funktioiden käytöstä nämä kolme asiaa:
 
 1. Jos funktiolle on tarkoitus antaa jotain tietoa käsiteltäväksi, se laitetaan **parametriksi**. Alla ne ovat kirjaimet **a ja b**
 
@@ -143,3 +143,5 @@ Kun funktiota määritellään, sille määritellään **parametrit**. Kun funkt
    }
    tipCounter(140, 1.15);
    ```
+
+- Jos mitään ei näy, kannattaa käyttää console.logia!
