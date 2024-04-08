@@ -14,7 +14,7 @@ Scope JavaScriptissä viittaa muuttujien ja funktioiden saavutettavuuteen eri os
 
 Hoisting on JavaScriptin oletuskäyttäytymistapa, jossa määrittelyt siirretään nykyisen scopen alkuun. Se mahdollistaa funktioiden ja muuttujien käytön ennen niiden määrittelyä.
 
-Onko tästä jotain hyötyä? Oikeastaan ei.
+Onko tästä jotain hyötyä? Oikeastaan ei, muutamaa erikoistilannetta lukuunottamatta.
 
 ### Esimerkkejä scopesta ja hoistingista
 
@@ -63,6 +63,10 @@ function hoistedFunction() {
 }
 hoistedFunction(); // Toimii hyvin
 ```
+
+### Oletko edelleen pihalla hoistingista?
+
+[Täältä löydät selkeän videon aiheesta.](https://www.youtube.com/watch?v=EvfRXyKa_GI&ab_channel=WebDevSimplified)
 
 ### Parhaat käytännöt
 
