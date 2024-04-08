@@ -2,11 +2,11 @@
 // Täydennä funktio convertStringToNumber niin, että se muuntaa saamansa merkkijonon numeroksi.
 
 function convertNumberToString(number) {
-  return number.toString();
+  return number;
 }
 
 function convertStringToNumber(string) {
-  return parseInt(string, 10);
+  return string;
 }
 
 // Esimerkki - älä muokkaa
