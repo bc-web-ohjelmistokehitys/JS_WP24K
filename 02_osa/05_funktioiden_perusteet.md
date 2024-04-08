@@ -124,9 +124,8 @@ Kun funktiota määritellään, sille määritellään **parametrit**. Kun funkt
    function tipCounter(a, b) {
      return a * b;
    }
+   tipCounter(140, 1.15);
    ```
-
-tipCounter(140, 1.15);
 
 ````
 2. Jos funktiosta halutaa tietoa ulos, se täytyy **palauttaa**
@@ -145,10 +144,5 @@ tipCounter(140, 1.15);
    function tipCounter(a, b) {
      return a * b;
    }
+   tipCounter(140, 1.15);
    ```
-
-tipCounter(140, 1.15);
-
-```
-
-```
