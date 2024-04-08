@@ -59,26 +59,26 @@ Käytä implisiittistä palautusta vain silloin, kun funktion runko on yksi rivi
 
 Nuolifunktiot ovat hieman lyhyempi tapa kirjoittaa funktiota. Vanhempi tapa toimii edelleen myös ja niitä saattaa vilahdella materiaalissa.
 
-Alla on funktio nimeltä hello ja se palauttaa tekstin Hello world!
+Alla on funktio nimeltä add ja se palauttaa kahden luvun summan.
 
 ```js
-function hello() {
-  return "Hello world!";
+function add(a, b) {
+  return a + b;
 }
 ```
 
 Sama nuolifunktiona ilmaistuna:
 
 ```js
-hello = () => {
-  return "Hello world!";
+add = (a, b) => {
+  return a + b;
 };
 ```
 
 Sama nuolifunktiona käyttäen implisiittistä palautusta:
 
 ```js
-hello = () => "Hello world!";
+const add = (a, b) => a + b;
 ```
 
 ## Funktion kutsuminen
