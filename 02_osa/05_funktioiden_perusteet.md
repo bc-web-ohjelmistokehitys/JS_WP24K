@@ -115,3 +115,40 @@ greet("Marjatta"); // Tulostaa "Heippa Marjatta!"
 ### Parametri vs. argumentti?
 
 Kun funktiota määritellään, sille määritellään **parametrit**. Kun funktiota kutsutaan ja sille annetaan arvoja, niitä kutsutaan **argumenteiksi**.
+
+## Muista nämä kolme asiaa:
+
+1. Jos funktiolle on tarkoitus antaa jotain tietoa käsiteltäväksi, se laitetaan **parametriksi**
+   Alla ne ovat kirjaimet a ja b
+   ```js
+   function tipCounter(a, b) {
+     return a * b;
+   }
+   ```
+
+tipCounter(140, 1.15);
+
+````
+2. Jos funktiosta halutaa tietoa ulos, se täytyy **palauttaa**
+Huomaa alla sana return
+```js
+function tipCounter(a,b){
+ return (a * b);
+};
+
+tipCounter(140, 1.15);
+````
+
+3. Jotta funktio tapahtuu, sitä pitää **kutsua**
+   Huomaa alimpana funktiokutsu
+   ```js
+   function tipCounter(a, b) {
+     return a * b;
+   }
+   ```
+
+tipCounter(140, 1.15);
+
+```
+
+```
