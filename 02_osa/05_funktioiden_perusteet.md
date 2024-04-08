@@ -1,4 +1,4 @@
-# Perus asiat funktioista
+# Perusasiat funktioista
 
 Funktiot ovat olennainen osa ohjelmointia ja niitä käytetään monissa eri tilanteissa. Ne auttavat jakamaan koodin pienempiin ja helpommin hallittaviin osiin. Tällä tavoin voit eriyttää koodin toiminnallisuuden ja käyttää sitä uudelleen eri osissa ohjelmaa. Koodista tulee modulaarista.
 
@@ -34,6 +34,8 @@ function summa(x, y) {
 
 Kun unohdat kirjoittaa `return`-avainsanan funktion sisällä JavaScriptissä, saat implisiittisen `return undefined`. Sana "implisiittinen" tässä tarkoittaa, että se päätellään mutta sitä ei ole erityisesti ilmaistu. Tarkoittaen, että **return undefined** -lauseketta ei ollut, mutta saamme silti tuloksena `undefined`.
 
+Usein on tilanteita, joissa koodi ei toimi ja konsolissa lukee `undefined`. Silloin kannattaa varmistaa, että funktiot palauttavat jotain.
+
 JavaScriptin nuolifunktiossa voi käyttää implisiittistä palautusta, jos funktio palauttaa arvon välittömästi. Alla olevan esimerkin kaltaisessa tilanteessa voi käyttää implisiittistä palautusta:
 
 ```js
@@ -60,9 +62,9 @@ Nuolifunktiot ovat hieman lyhyempi tapa kirjoittaa funktiota. Vanhempi tapa toim
 Alla on funktio nimeltä hello ja se palauttaa tekstin Hello world!
 
 ```js
-hello = function () {
+function hello() {
   return "Hello world!";
-};
+}
 ```
 
 Sama nuolifunktiona ilmaistuna:

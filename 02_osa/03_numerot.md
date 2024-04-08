@@ -8,7 +8,7 @@
 - 2021
 - -23.51
 
-JavaScriptissä nämä kaikki katsotaan **Numeroiksi**. Olivatpa ne sitten negatiivisia tai positiivisia, tai sisältivätpä ne desimaalipilkun tai ei, ne kuuluvat numeroiden kategoriaan.
+JavaScriptissä nämä kaikki katsotaan **Numeroiksi**. Olivatpa ne sitten negatiivisia tai positiivisia, tai sisältivätpä ne desimaalipisteen tai ei, ne kuuluvat numeroiden kategoriaan.
 
 **Desimaaliluvussa käytetään pistettä ei pilkkua!**
 
@@ -32,7 +32,7 @@ Joskus saatat törmätä `NaN` -arvoon JavaScript-koodissasi. Tämä tarkoittaa 
 "abc" * 4; // Tämä antaa NaN:n
 ```
 
-`NaN`:n kohtaaminen viittaa yleensä tietotyyppivirheeseen, kuten merkkijonon muuttamisen unohtamiseen numeroksi. Yleinen skenaario liittyy olion ominaisuuteen, joka vahingossa jäänyt määrittelemätt eli on `undefined` johtuen kirjoitusvirheestä, ja sitä käytetään sitten laskutoimituksissa kuin se olisi kelvollinen numero. Tätä aihealuetta käsitellään tarkemmin tulevissa luvuissa, erityisesti kun käydään läpi olioita ja niiden ominaisuuksia.
+`NaN`:n kohtaaminen viittaa yleensä tietotyyppivirheeseen, kuten merkkijonon muuttamisen unohtamiseen numeroksi. Yleinen skenaario liittyy olion ominaisuuteen, joka vahingossa jäänyt määrittelemättä eli on `undefined` johtuen kirjoitusvirheestä, ja sitä käytetään sitten laskutoimituksissa kuin se olisi kelvollinen numero. Tätä aihealuetta käsitellään tarkemmin tulevissa luvuissa, erityisesti kun käydään läpi olioita ja niiden ominaisuuksia.
 
 ## Muunna merkkijonot numeroiksi
 

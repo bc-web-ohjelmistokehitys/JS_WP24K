@@ -4,9 +4,9 @@ JavaScript on dynaamisesti tyypitetty kieli, mikä tarkoittaa, että muuttujat v
 
 ### Primitiiviset tietotyypit
 
-- **Numero**: Edustaa sekä kokonaislukuja että liukulukuja. Esimerkiksi 42 ja 3.14.
-- **Merkkijono**: Käytetään tekstuaaliseen dataan. Sen täytyy olla lainausmerkkien sisällä, esim. "Hei maailma!".
-- **Boolean**: Edustaa loogista kokonaisuutta ja voi olla vain kaksi arvoa: true tai false.
+- **Numero**: Edustaa sekä kokonaislukuja (integer) että liukulukuja (float). Esimerkiksi 42 ja 3.14.
+- **Merkkijono**: Käytetään tekstuaaliseen dataan. Sen täytyy olla lainausmerkkien sisällä, esim. "Hei maailma!". Englanniksi _string_.
+- **Boolean**: Edustaa loogista kokonaisuutta ja voi olla vain kaksi arvoa: true tai false. Kutsutaan myös _totuusarvoksi_.
 - **Määrittelemätön** (Undefined): Kun muuttuja on julistettu mutta sille ei ole annettu arvoa, sen arvo on määrittelemätön (undefined).
 - **Null**: Tarkoittaa nollaarvoa, osoittaen minkään objektin arvon puuttumista.
 - **Symboli** (ES6:ssa esitelty): Käytetään luomaan nimettömiä ja uniikkeja arvoja.
@@ -23,6 +23,7 @@ let emptyValue = null; // Null
 
 ### Monimutkainen tietotyyppi
 
+- Taulukko (eng. _array_): Lista arvoja, jossa arvot voivat olla mitä tahansa tietotyyppiä.
 - Olio (engl. _object_): Kokoelma avain-arvo -pareja, joissa arvot voivat olla mistä tahansa tietotyypistä. Olioita käytetään erilaisten avainkohtaisten kokoelmien ja monimutkaisempien kokonaisuuksien tallentamiseen.
 
 ## typeof
