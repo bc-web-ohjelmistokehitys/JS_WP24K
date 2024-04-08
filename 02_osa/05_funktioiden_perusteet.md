@@ -129,13 +129,12 @@ Kun funktiota määritellään, sille määritellään **parametrit**. Kun funkt
 
 2. Jos funktiosta halutaa tietoa ulos, se täytyy **palauttaa**. Huomaa alla sana **return**
 
-```js
-function tipCounter(a, b) {
-  return a * b;
-}
-
-tipCounter(140, 1.15);
-```
+   ```js
+   function tipCounter(a, b) {
+     return a * b;
+   }
+   tipCounter(140, 1.15);
+   ```
 
 3. Jotta funktio tapahtuu, sitä pitää **kutsua**. Huomaa alimpana funktiokutsu **tipCounter(140, 1.15)**
    ```js
