@@ -1,5 +1,6 @@
 Materiaalit päivittyvät kurssin aikana, kunhan ne saadaan käännettyä.
-Jos olet saanut kaikki tehtävät jo tehtyä ja kaipaat lisätehtäviä, ota yhteys Lauraan
+Jos olet saanut kaikki tehtävät jo tehtyä ja kaipaat lisätehtäviä, ota yhteys Lauraan. 
+Arvosanan antaa Laura ja palautusohjeet tulevat ItsLearningiin. 
 
 
 Materiaali on käännetty ja muokattu Margit Tennosaarin kurssipohjasta.
