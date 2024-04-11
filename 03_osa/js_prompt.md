@@ -4,7 +4,7 @@ Prompt on JavaScriptin toiminto, joka näyttää käyttäjälle pienen ikkunan, 
 
 ### Prompt aukeaa selaimessa
 
-Prompt ei toimi konsolissa, vaan selainikkunassa. Prompt-tehtäviä varten tarvitsee siis tehdä html-tiedosto ja liittää JavaScript koodi siihen.
+Prompt ei toimi konsolissa, vaan selainikkunassa. Prompt-tehtäviä varten tarvitsee siis tehdä html-tiedosto ja liittää JavaScript koodi siihen. Näissä harjoituksissa voit tehdä scriptin html-tiedostoon, vaikka yleensä sitä ei suositella.
 
 ```htlm
 <!DOCTYPE html>
@@ -22,3 +22,12 @@ Prompt ei toimi konsolissa, vaan selainikkunassa. Prompt-tehtäviä varten tarvi
 ```
 
 Näiden tehtävien testaamiseen käytetään Code Runnerin sijasta Live serveriä.
+
+### Esimerkki promptin käytöstä
+
+```js
+let name = prompt("Anna nimesi:");
+console.log("Hei vaan " + name + "!");
+```
+
+Tämä aukaisee ikkunan, joka pyytää käyttäjältä syötettä ja sisällyttää sen console.log tulosteeseen.
