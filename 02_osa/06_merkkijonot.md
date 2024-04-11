@@ -1,6 +1,6 @@
 # Merkkijonot
 
-JavaScriptin merkkijonot ovat perustietotyyppiä, joita käytetään tekstin tallentamiseen ja käsittelyyn. Voit määrittää merkkijonoja käyttäen joko yksinkertaisia lainausmerkkejä (' '), tuplalainausmerkkejä (" "), tai takalaitaa (``).
+JavaScriptin merkkijonot ovat perustietotyyppiä, joita käytetään tekstin tallentamiseen ja käsittelyyn. Voit määrittää merkkijonoja käyttäen joko yksinkertaisia lainausmerkkejä (' '), tuplalainausmerkkejä (" "), tai backtickejä (``).
 
 ```js
 "Tämä on merkkijono";
