@@ -10,7 +10,7 @@ JavaScriptin merkkijonot ovat perustietotyyppiä, joita käytetään tekstin tal
 
 ## Template-merkkijono
 
-Yksinkertaisten ja kaksinkertaisten lainausmerkkien lisäksi JavaScript tarjoaa template-merkkijonot, jotka ovat ympäröity takalaidoilla ``. Template-merkkijonot tarjoavat kehittyneitä ominaisuuksia, kuten merkkijonon interpolointi ja moniriviset merkkijonot.
+Yksinkertaisten ja kaksinkertaisten lainausmerkkien lisäksi JavaScript tarjoaa template-merkkijonot, jotka ovat ympäröity backtickeillä``. Template-merkkijonot tarjoavat kehittyneitä ominaisuuksia, kuten merkkijonon interpolointi ja moniriviset merkkijonot.
 
 ```js
 `Tämä on template-merkkijono`;
