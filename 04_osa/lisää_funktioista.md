@@ -35,7 +35,7 @@ console.log(lisää(2, 3)); // 5
 
 ### Mitä eroa?
 
-Kirjoitusasun lisäksi yllä esitetyt kolme tapaa eroavat yhdellä tavalla: Funktiot, jotka on määritelty, voidaan hoistata. Eli niitä voidaan kutsua ennen niiden määrittelyä. Funktioilmaisuja ja nuolifunktioita ei voi hoistata. Kuten jo aiemmin on todettu, hoistamiinen ei yleensä ole järkevää.
+Kirjoitusasun lisäksi yllä esitetyt kolme tapaa eroavat yhdellä tavalla: Funktiot, jotka on määritelty, voidaan hoistata. Eli niitä voidaan kutsua ennen niiden määrittelyä. Funktioilmaisuja ja nuolifunktioita ei voi hoistata. Kuten jo aiemmin on todettu, hoistaaminen ei yleensä ole järkevää.
 
 ## Parametrit ja Argumentit
 
@@ -62,7 +62,7 @@ function suurin(a, b) {
 console.log(suurin(10, 20)); // 20
 ```
 
-## Käyttöalue (Scope) Funktioissa
+## Käyttöalue (Scope) funktioissa
 
 Funktiossa määritellyt muuttujat eivät ole käytettävissä funktion ulkopuolelta. Näitä muuttujia kutsutaan funktion käyttöalueeksi.
 
@@ -97,7 +97,7 @@ const tuplattu = numerot.map((numero) => numero * 2);
 // tuplattu on nyt [2, 4, 6, 8]
 ```
 
-### Käyttö kohteissa Takaisinkutsuissa ja Tapahtumankäsittelijöissä
+### Käyttö takaisinkutsuissa ja tapahtumankäsittelijöissä
 
 Korkeamman asteen funktioita käytetään myös yleisesti takaisinkutsuissa, erityisesti asynkronisten toimintojen ja tapahtumankäsittelyn yhteydessä. JavaScriptissä funktiot voidaan siirtää takaisinkutsuiksi suoritettavaksi myöhemmin tapahtuman tai asynkronisen toiminnon suorittamisen jälkeen.
 
