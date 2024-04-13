@@ -36,7 +36,7 @@ document.getElementById("myButton").addEventListener("click", function () {
 
 Tässä esimerkissä tapahtumankäsittelijä lisätään painikkeelle, jonka tunniste on `myButton`. Kun painiketta klikataan, nimetön funktio näyttää ilmoitusruudun.
 
-### Erot ja parhaat käytännöt
+### Erot ja best practices
 
 - **Vastuun jakaminen**: `addEventListener`-metodin käyttö JavaScriptissä erottaa HTML-rakenteen käyttäytymisestä, mikä noudattaa verkkokehityksen parhaita käytäntöjä.
 - **Joustavuus**: JavaScriptistä kutsutut funktiot mahdollistavat monimutkaisemmat vuorovaikutukset, kuten useiden tapahtumakuuntelijoiden liittämisen samaan elementtiin tai tapahtumakuuntelijoiden dynaaminen lisääminen tai poistaminen.
