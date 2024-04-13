@@ -37,7 +37,9 @@ console.log(lisää(2, 3)); // 5
 
 Kirjoitusasun lisäksi yllä esitetyt kolme tapaa eroavat yhdellä tavalla: Funktiot, jotka on määritelty, voidaan hoistata. Eli niitä voidaan kutsua ennen niiden määrittelyä. Funktioilmaisuja ja nuolifunktioita ei voi hoistata. Kuten jo aiemmin on todettu, hoistaaminen ei yleensä ole järkevää.
 
-## Parametrit ja Argumentit
+Käytä sitä tapaa, josta tykkäät eniten.
+
+## Parametrit ja argumentit
 
 Funktiot voivat ottaa parametreja, jotka toimivat paikkamerkkeinä arvoille, jotka välitetään funktiolle, kun sitä kutsutaan.
 
@@ -51,7 +53,52 @@ function summa(a, b) {
 console.log(summa(5, 7)); // 12
 ```
 
-## `return`-lause
+#### Entä jos parametri jää antamatta?
+
+Mieti hetki seuraavaa funktiota:
+
+```js
+function addOne(number) {
+  return number + 1;
+}
+addOne(2); // Palauttaa 3
+addOne(5); // Palauttaa 6
+addOne(); // Mitä tämä palauttaa?
+```
+
+Joissakin ohjelmointikielissä addOne()-funktion kutsuminen ilman argumentteja voisi johtaa virheeseen. Kuitenkin JavaScript käsittelee tämän sulavasti ja jatkaa suoritusta ilman epäonnistumista.
+
+Kun argumenttia ei anneta, `number` tulee määrittelemättömäksi (undefined), ja funktio palauttaa `undefined + 1`, joka on `NaN` (ei-luku). Tämän välttämiseksi voit käyttää `if`-ehtolauseita tai oletusarvoisia parametreja.
+
+### Oletusarvot parametreille
+
+Oletusarvot mahdollistavat oletusarvon määrittämisen yhdelle tai useammalle parametrille, kun niitä ei anneta funktion kutsussa. Tämä voi estää ei-toivotut tulokset, kuten `NaN`:
+
+```js
+function lisääYksi(numero = 0) {
+  return numero + 1;
+}
+lisääYksi(2); // Palauttaa 3
+lisääYksi(5); // Palauttaa 6
+lisääYksi(); // Palauttaa 1
+```
+
+`lisääYksi()` -funktiota kutsuttaessa ilman argumentteja `numero` oletetaan arvoksi `0`, mikä estää `NaN`:n ja yksinkertaistaa funktion toimintaa.
+
+Samanlainen esimerkki on tervetuloafunktio:
+
+```js
+function tervetuloaKäyttäjä(nimi = "käyttäjä") {
+  return `Hei ${nimi}`;
+}
+
+tervetuloaKäyttäjä("Sam"); // Tuottaa "Hei Sam"
+tervetuloaKäyttäjä(); // Tuottaa "Hei käyttäjä"
+```
+
+Käytä oletusarvoparametreja lisäämään funktion joustavuutta ja luotettavuutta.
+
+## Return-lause
 
 `return`-lauseella palautetaan arvo funktiosta.
 
@@ -136,7 +183,7 @@ console.log(tulos1); // undefined
 console.log(tulos2); // undefined
 ```
 
-## Parhaat Käytännöt
+## Best practices
 
 - Käytä selkeitä ja kuvaavia nimiä funktioille.
 - Funktioiden tulisi olla pieniä ja keskittyä tiettyyn tehtävään.
