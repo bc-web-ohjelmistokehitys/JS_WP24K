@@ -1,8 +1,6 @@
-# Funktiot
+# Funktiot - kertausta ja vähän uutta
 
-Tervetuloa tähän johdattelevaan oppaaseen JavaScriptin funktioista. Tämä opas on suunniteltu auttamaan aloittelijoita ymmärtämään olennaiset käsitteet funktion määrittämisessä ja käyttämisessä JavaScriptissä, parantaen koodin modulaarisuutta ja uudelleenkäytettävyyttä.
-
-Funktiot ovat yksi JavaScriptin peruspalikoista. Funktio on joukko lauseita, jotka suorittavat tehtävän tai laskentaa arvoa.
+Funktiot ovat yksi JavaScriptin peruspalikoista. Funktio on joukko lauseita, jotka suorittavat tehtävän tai laskevat jonkin arvon.
 
 ## Funktion Määrittäminen
 
@@ -17,7 +15,7 @@ tervehdi(); // Kutsuu funktiota
 
 ## Funktioilmaisut
 
-Funktioilmaisut mahdollistavat nimettömien funktioiden (funktioita ilman nimeä) luomisen ja niiden asettamisen muuttujiin.
+Funktioilmaisut mahdollistavat nimettömien funktioiden (=funktio ilman nimeä) luomisen ja niiden asettamisen muuttujiin.
 
 ```js
 const neliö = function (luku) {
@@ -34,6 +32,10 @@ ES6 esitteli nuolifunktiot, tarjoten tiiviimmän syntaksin funktioiden kirjoitta
 const lisää = (a, b) => a + b;
 console.log(lisää(2, 3)); // 5
 ```
+
+### Mitä eroa?
+
+Kirjoitusasun lisäksi yllä esitetyt kolme tapaa eroavat yhdellä tavalla: Funktiot, jotka on määritelty, voidaan hoistata. Eli niitä voidaan kutsua ennen niiden määrittelyä. Funktioilmaisuja ja nuolifunktioita ei voi hoistata. Kuten jo aiemmin on todettu, hoistamiinen ei yleensä ole järkevää.
 
 ## Parametrit ja Argumentit
 
@@ -62,7 +64,7 @@ console.log(suurin(10, 20)); // 20
 
 ## Käyttöalue (Scope) Funktioissa
 
-Funktiossa määritellyt muuttujat eivät ole käytettävissä funktion ulkopuolelta. Näitä muuttujia kutsutaan funktion näköalaksi.
+Funktiossa määritellyt muuttujat eivät ole käytettävissä funktion ulkopuolelta. Näitä muuttujia kutsutaan funktion käyttöalueeksi.
 
 ```js
 function omaFunktio() {
@@ -140,4 +142,4 @@ console.log(tulos2); // undefined
 - Funktioiden tulisi olla pieniä ja keskittyä tiettyyn tehtävään.
 - Käytä oletusparametreja asettamaan oletusarvot funktioparametreille.
 - Vältä globaaleja muuttujia.
-- Käytä nuolifunktioita tiiviisiin yksiulotteisiin lauseisiin.
+- Käytä nuolifunktioita tiiviisiin yksirivisiin ilmaisuihin.
