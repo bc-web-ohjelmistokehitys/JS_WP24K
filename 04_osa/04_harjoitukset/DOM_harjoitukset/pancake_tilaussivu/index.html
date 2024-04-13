@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pancakekone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="pancake.jpeg" alt="Delicious pancakes" />
+        <div class="price-banner"><span id="totalPrice">5€</span></div>
+      </div>
+      <div class="form-container">
+        <h2>Muokkaa Pancake-tilaustasi</h2>
+        <div class="customization-section">
+          <label for="type">Valitse pancake tyyli:</label>
+          <select id="type">
+            <option value="5">Klassinen- 5€</option>
+            <option value="6">Suklaa - 6€</option>
+            <option value="7">Mustikka - 7€</option>
+          </select>
+        </div>
+        <div class="customization-section">
+          <p>Valitse lisukkeet (1€ kukin):</p>
+          <input type="checkbox" id="nuts" value="1" />Pähkinät<br />
+          <input type="checkbox" id="bananas" value="1" />Banaani<br />
+          <input type="checkbox" id="syrup" value="1" />Siirappi<br />
+        </div>
+        <div class="customization-section">
+          <p>Lisävaihtoehdot:</p>
+          <input type="checkbox" id="whippedCream" value="2" />Kermavaahto -
+          2€<br />
+          <input type="checkbox" id="iceCream" value="3" />Jäätelö - 3€<br />
+        </div>
+        <div class="price-display">
+          <h3>Kokonaishinta <span id="totalPrice">5€</span></h3>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
