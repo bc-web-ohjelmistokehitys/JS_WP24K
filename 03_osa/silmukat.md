@@ -92,8 +92,8 @@ for (let hedelmä of hedelmät) {
 
 ## Silmukan hallintalausunnot
 
-- `**break**`: Lopettaa silmukan.
-- `**continue**`: Ohittaa nykyisen iteraation ja jatkaa seuraavaan.
+- **`break`**: Lopettaa silmukan.
+- **`continue`**: Ohittaa nykyisen iteraation ja jatkaa seuraavaan.
 
 ## Ikuiset silmukat
 
