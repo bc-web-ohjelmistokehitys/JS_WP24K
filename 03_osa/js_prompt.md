@@ -1,4 +1,4 @@
-# JavaScript Propmt
+# JavaScript Prompt
 
 Prompt on JavaScriptin toiminto, joka näyttää käyttäjälle pienen ikkunan, jossa voi syöttää tekstiä tai numeroita. Kun käyttäjä syöttää jotain ja painaa OK-painiketta, prompt palauttaa sen syötetyn arvon. Tätä arvoa voi sitten käyttää ohjelmassa esimerkiksi laskemiseen, tallentamiseen tai näyttämiseen käyttäjälle.
 
