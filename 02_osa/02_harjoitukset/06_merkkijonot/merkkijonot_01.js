@@ -9,7 +9,7 @@ function getCharCount(str) {
 // Esimerkkikäyttö - älä muokkaa
 console.log(getCharCount('Sam')); // 3
 console.log(getCharCount('Alex 123')); // 8
-console.log(getCharCount('Jimi was here')); // 15
+console.log(getCharCount('Jimi was here')); // 13
 
 
 
