@@ -48,11 +48,11 @@ Jos mahdollisia lopputuloksia on enemmän kuin kaksi, käytä else if:
 const lämpötila = 30;
 
 if (lämpötila > 30) {
-  console.log("Ulkoa on kuuma");
+  console.log("Ulkona on kuuma");
 } else if (lämpötila === 30) {
-  console.log("Ulkoa on lämmin");
+  console.log("Ulkona on lämmin");
 } else {
-  console.log("Ulkoa on viileää");
+  console.log("Ulkona on viileää");
 }
 ```
 
