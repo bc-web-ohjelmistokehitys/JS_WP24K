@@ -21,7 +21,7 @@ Prompt ei toimi konsolissa, vaan selainikkunassa. Prompt-tehtäviä varten tarvi
 </html>
 ```
 
-Näiden tehtävien testaamiseen käytetään Code Runnerin sijasta Live serveriä.
+Näiden tehtävien testaamiseen käytetään Code Runnerin sijasta Live serveriä ja konsoli löytyy selaimen kehittäjätyökaluista eli devtoolseista. 
 
 ### Esimerkki promptin käytöstä
 
