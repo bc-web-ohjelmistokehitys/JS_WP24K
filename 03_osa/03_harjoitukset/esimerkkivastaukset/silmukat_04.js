@@ -25,7 +25,7 @@ do {
   }
   laskuri++
 
-} while (laskuri != 20)
+} while (laskuri < 20)
 
 console.log("Parillisia lukuja oli " + parillisetLuvut)
 
