@@ -41,7 +41,7 @@ const myArray = [3, 5, 6];
 myArray = "example string"; // ERROR! myArray voi olla vain alkuperäinen taulukko
 ```
 
-Vaikka käyttäisit `const` taulukkoa luodessa, voit edelleen muokata arvoja taulukon sisällä eli esimerkiksi lisätä ja poistaa sieltä arvoja.
+**Vaikka käyttäisit `const` taulukkoa luodessa, voit edelleen muokata arvoja taulukon sisällä eli esimerkiksi lisätä ja poistaa sieltä arvoja.**
 
 Yleisesti ottaen kannattaa käyttää `const` luodessaan taulukkoa, jotta ei vahingossa tee muutoksia tähän kyseiseen taulukkoon.
 
