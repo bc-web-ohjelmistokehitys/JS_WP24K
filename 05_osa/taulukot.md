@@ -13,6 +13,38 @@ const merkkijonoTaulukko = ["a", "b", "c"];
 const sekalainenTaulukko = [1, "a", true, null];
 ```
 
+### Const vai let taulukkoa luodessa?
+
+Kun käytät taulukon luomisessa `const`, JavaScript 'lukitsee' luomasi taulukon kyseiseen nimeen. `Let` ei tätä tee.
+
+```
+let myArray = [1, 2, 3];
+myArray = [4, 5, 6]; // Taulukon muuttaminen toiseksi taulukoksi onnistuu
+```
+
+```
+const myArray = [1, 2, 3];
+myArray = [4, 5, 6]; // ERROR! taulukkoa ei saa vaihtaa toiseksi
+
+// Voit vaihtaa kaikki arvot, mutta siihen tarvitaan metodia
+```
+
+Jos käytät `let` sanaa, nimeen liitetty arvo voi vaihtua myös muuksi kuin taulukoksi
+
+```
+let myArray = [3, 5, 6];
+myArray = "example string"; // Tämä toimii
+```
+
+```
+const myArray = [3, 5, 6];
+myArray = "example string"; // ERROR! myArray voi olla vain alkuperäinen taulukko
+```
+
+Vaikka käyttäisit `const` taulukkoa luodessa, voit edelleen muokata arvoja taulukon sisällä eli esimerkiksi lisätä ja poistaa sieltä arvoja.
+
+Yleisesti ottaen kannattaa käyttää `const` luodessaan taulukkoa, jotta ei vahingossa tee muutoksia tähän kyseiseen taulukkoon.
+
 ## Metodien kategoriat
 
 ### Elementtien lisääminen/poistaminen
