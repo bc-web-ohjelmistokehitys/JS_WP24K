@@ -17,12 +17,12 @@ const sekalainenTaulukko = [1, "a", true, null];
 
 Kun käytät taulukon luomisessa `const`, JavaScript 'lukitsee' luomasi taulukon kyseiseen nimeen. `Let` ei tätä tee.
 
-```
+```js
 let myArray = [1, 2, 3];
 myArray = [4, 5, 6]; // Taulukon muuttaminen toiseksi taulukoksi onnistuu
 ```
 
-```
+```js
 const myArray = [1, 2, 3];
 myArray = [4, 5, 6]; // ERROR! taulukkoa ei saa vaihtaa toiseksi
 
@@ -31,12 +31,12 @@ myArray = [4, 5, 6]; // ERROR! taulukkoa ei saa vaihtaa toiseksi
 
 Jos käytät `let` sanaa, nimeen liitetty arvo voi vaihtua myös muuksi kuin taulukoksi
 
-```
+```js
 let myArray = [3, 5, 6];
 myArray = "example string"; // Tämä toimii
 ```
 
-```
+```js
 const myArray = [3, 5, 6];
 myArray = "example string"; // ERROR! myArray voi olla vain alkuperäinen taulukko
 ```
