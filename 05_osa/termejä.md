@@ -31,6 +31,8 @@ Tämä on erityisen hyödyllistä tehtävissä, jotka voivat kestää pitkään,
 
 Koska koodatessa samaan lopputulokseen voi päätyä montaa eri kautta, on hyvä välillä miettiä mikä olisi paras tapa tietyn asian toteuttamiseen. _Best practices_ ovat käyttötapoja, jotka alalla on havaittu parhaiten toimiviksi. Ne eivät ole ainoita vaihtoehtoja, mutta yleensä toimivat paremmin ja varmemmin kuin muut.
 
-## Rajapinta
+## Rajapinta (interface)
 
-Rajapinta (interface) on käsitteenä keskeinen ohjelmoinnissa ja tietotekniikassa. Se viittaa tapaan, jolla kaksi erillistä järjestelmää, komponenttia tai ohjelmistoa vuorovaikuttavat keskenään. Rajapinta määrittelee, miten eri osat kommunikoivat toistensa kanssa ilman, että niiden sisäinen toiminta paljastetaan.
+Rajapinta on käsitteenä keskeinen ohjelmoinnissa ja tietotekniikassa. Se viittaa tapaan, jolla kaksi erillistä järjestelmää, komponenttia tai ohjelmistoa vuorovaikuttavat keskenään. Rajapinta määrittelee, miten eri osat kommunikoivat toistensa kanssa ilman, että niiden sisäinen toiminta paljastetaan.
+
+**API** (Application Programming Interface) on ohjelmointirajapinta, joka määrittelee joukon sääntöjä ja toimintoja, joiden avulla erilaiset ohjelmistot voivat kommunikoida keskenään. Se tarjoaa tapoja ja rajapintoja, joiden avulla sovellukset voivat käyttää toistensa toiminnallisuutta tai dataa ilman että ne tarvitsevat tuntea tai ymmärtää toistensa sisäistä rakennetta. API voi olla käytettävissä eri muodoissa, kuten verkkopalveluna, kirjastona tai ohjelmointirajapintana, joka sallii sovellusten integroitumisen ja yhteistyön.
