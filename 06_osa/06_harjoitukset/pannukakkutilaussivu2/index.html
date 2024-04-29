@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pancake tilaussivu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="pancake.jpeg" alt="Delicious pancakes" />
+        <div class="price-banner"><span id="totalPrice">5€</span></div>
+      </div>
+      <div class="form-container">
+        <h2>Muokkaa Pancake-tilaustasi</h2>
+        <div class="customization-section">
+          <label for="type">Valitse pancake tyyli:</label>
+          <select id="type">
+            <option value="5">Klassinen - 5€</option>
+            <option value="6">Suklaa - 6€</option>
+            <option value="7">Mustikka - 7€</option>
+          </select>
+        </div>
+        <div class="customization-section">
+          <p>Valitse lisukkeet (1€ kukin):</p>
+          <div>
+            <input
+              type="checkbox"
+              id="nuts"
+              value="1"
+              data-name="Nuts"
+              data-category="toppings"
+            />
+            <label for="nuts">Pähkinät</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="bananas"
+              value="1"
+              data-name="Bananas"
+              data-category="toppings"
+            />
+            <label for="bananas">Banaani</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="syrup"
+              value="1"
+              data-name="Syrup"
+              data-category="toppings"
+            />
+            <label for="syrup">Siirappi</label>
+          </div>
+        </div>
+        <div class="customization-section">
+          <p>Lisävaihtoehdot:</p>
+          <div>
+            <input
+              type="checkbox"
+              id="whippedCream"
+              value="2"
+              data-name="Whipped Cream"
+              data-category="extras"
+            />
+            <label for="whippedCream">Kermavaahto - 2€</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="iceCream"
+              value="3"
+              data-name="Ice Cream"
+              data-category="extras"
+            />
+            <label for="iceCream">Jäätelö - 3€</label>
+          </div>
+        </div>
+        <div>
+          <h3>Sinun tietosi</h3>
+          <div>
+            <label for="customerName">Nimesi</label>
+            <input type="text" id="customerName" />
+          </div>
+          <button>Tee tilaus</button>
+        </div>
+        <div class="order">
+          <p>Tyyppi: <span id="order_type"></span></p>
+          <p>Lisukkeet: <span id="order_toppings"></span></p>
+          <p>Extrat: <span id="order_extras"></span></p>
+          <p>Nimi: <span id="order_name"></span></p>
+          <p>Hinta: <span id="order_price"></span></p>
+        </div>
+        <!--         <div class="price-display">
+          <h3>Total Price: <span id="totalPrice">5€</span></h3>
+        </div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
