@@ -30,3 +30,7 @@ Tämä on erityisen hyödyllistä tehtävissä, jotka voivat kestää pitkään,
 ## Best Practice eli suositellut käytännöt
 
 Koska koodatessa samaan lopputulokseen voi päätyä montaa eri kautta, on hyvä välillä miettiä mikä olisi paras tapa tietyn asian toteuttamiseen. _Best practices_ ovat käyttötapoja, jotka alalla on havaittu parhaiten toimiviksi. Ne eivät ole ainoita vaihtoehtoja, mutta yleensä toimivat paremmin ja varmemmin kuin muut.
+
+## Rajapinta
+
+Rajapinta (interface) on käsitteenä keskeinen ohjelmoinnissa ja tietotekniikassa. Se viittaa tapaan, jolla kaksi erillistä järjestelmää, komponenttia tai ohjelmistoa vuorovaikuttavat keskenään. Rajapinta määrittelee, miten eri osat kommunikoivat toistensa kanssa ilman, että niiden sisäinen toiminta paljastetaan.
