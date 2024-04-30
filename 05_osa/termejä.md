@@ -36,3 +36,9 @@ Koska koodatessa samaan lopputulokseen voi päätyä montaa eri kautta, on hyvä
 Rajapinta on käsitteenä keskeinen ohjelmoinnissa ja tietotekniikassa. Se viittaa tapaan, jolla kaksi erillistä järjestelmää, komponenttia tai ohjelmistoa vuorovaikuttavat keskenään. Rajapinta määrittelee, miten eri osat kommunikoivat toistensa kanssa ilman, että niiden sisäinen toiminta paljastetaan.
 
 **API** (Application Programming Interface) on ohjelmointirajapinta, joka määrittelee joukon sääntöjä ja toimintoja, joiden avulla erilaiset ohjelmistot voivat kommunikoida keskenään. Se tarjoaa tapoja ja rajapintoja, joiden avulla sovellukset voivat käyttää toistensa toiminnallisuutta tai dataa ilman että ne tarvitsevat tuntea tai ymmärtää toistensa sisäistä rakennetta. API voi olla käytettävissä eri muodoissa, kuten verkkopalveluna, kirjastona tai ohjelmointirajapintana, joka sallii sovellusten integroitumisen ja yhteistyön.
+
+## Syntaksi
+
+Ohjelmointikielillä on säännöt siitä, miten juuri sillä kielellä ilmaistaan asiat eli eli ehdot sille, milloin jokin ilmaus on kyseisen kielen ilmaus. Esimerkiksi JavaScriptissä on tietyt käyttötapaukset kaarisuluille (), hakasuluille [] ja aaltosuluille {}. Jos käyttää vääriä sulkeita, ohjelma ei toimi ja kyseessä on silloin syntaksivirhe.
+
+Joissakin ohjelmistokielissä (esim. Python) sisennykset ovat merkityksellisiä, kun monissa niiden käyttö on puhtaasti kosmeettista.
