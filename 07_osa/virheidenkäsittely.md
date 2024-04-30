@@ -65,8 +65,6 @@ function myFunction() {
 
 Viittausvirhe näkyy, kun yrität viitata muuttujaan, jota ei ole määritelty.
 
-#### Esimerkki:
-
 ```javascript
 function showName() {
   console.log(name);
