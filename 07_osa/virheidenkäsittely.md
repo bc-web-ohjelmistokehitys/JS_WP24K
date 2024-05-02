@@ -58,7 +58,7 @@ Ilmenee, kun koodisi syntaksissa on ongelma eli asiaa ei ilmaista oikeassa muodo
 function myFunction() {
     console.log("Hello World";
 }
-// Puuttuva sulkeva hakasulku aiheuttaa SyntaxError-virheen
+// Puuttuva sulkeva kaarisulku aiheuttaa SyntaxError-virheen
 ```
 
 ### ReferenceError
