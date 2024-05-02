@@ -7,7 +7,6 @@ Arvosanan antaa Laura ja palautusohjeet tulevat ItsLearningiin.
 - **1 osa:**
   - aloitus
   - [hyödyllisiä termejä](01_osa/termejä.md)
-  -
 - **2 osa:**
   - [muuttujat](02_osa/01_muuttujat.md_osa/)
   - [tietotyypit](02_osa/02_tietotyypit.md)

@@ -34,6 +34,24 @@ Joskus saatat törmätä `NaN` -arvoon JavaScript-koodissasi. Tämä tarkoittaa 
 
 `NaN`:n kohtaaminen viittaa yleensä tietotyyppivirheeseen, kuten merkkijonon muuttamisen unohtamiseen numeroksi. Yleinen skenaario liittyy olion ominaisuuteen, joka vahingossa jäänyt määrittelemättä eli on `undefined` johtuen kirjoitusvirheestä, ja sitä käytetään sitten laskutoimituksissa kuin se olisi kelvollinen numero. Tätä aihealuetta käsitellään tarkemmin tulevissa luvuissa, erityisesti kun käydään läpi olioita ja niiden ominaisuuksia.
 
+## isNaN
+
+`isNaN()`-funktio tarkistaa, onko annettu arvo "Not-a-Number" (ei-numero) ja palauttaa `true` jos se ei ole numero, muuten se palauttaa `false`
+
+```javascript
+console.log(isNaN(123)); // false, koska 123 on numero
+console.log(isNaN("abc")); // true, koska 'abc' ei ole numero
+console.log(isNaN("123")); // false, koska '123' voidaan muuntaa numeroksi
+```
+
+Tämä toimii hyvin tilanteissa, joissa haluat tarkistaa, onko muuttuja numero vai ei ennen kuin teet siihen liittyviä laskutoimituksia. Voit käyttää sitä ehtolauseissa (näistä lisää seuraavassa osassa)
+
+```js
+if (isNaN(muuttujaX)) {
+  //tämä toteutuu, kun muuttujan arvo ei ole numero.
+}
+```
+
 ## Muunna merkkijonot numeroiksi
 
 JavaScriptissä merkkijonojen muuntaminen numeroiksi on perustavanlaatuinen ja usein esiintyvä operaatio. Tämä saavutetaan yleensä käyttämällä Number.parseInt() -funktiota. Havainnollistaaksemme, harkitse tilannetta, jossa meillä on merkkijono str, jolla on arvo "42" ja meidän on muunnettava se numeeriseksi arvoksi.
