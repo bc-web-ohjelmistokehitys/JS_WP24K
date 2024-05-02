@@ -42,6 +42,7 @@ Arvosanan antaa Laura ja palautusohjeet tulevat ItsLearningiin.
   - **[olio-harjoitukset](06_osa/06_harjoitukset/)** ja **[pannukakkutilaus osa 2](06_osa/06_harjoitukset/pannukakkutilaussivu2/)**
 - **7 osa:**
   - [JavaScript kirjoitussäännöt](07_osa/JS_kirjoitussäännöt.md)
+  - [demo strict moden käytöstä](07_osa/demo/strict.js)
   - [virheiden käsittely](07_osa/virheidenkäsittely.md)
   - **[try-catch harjoitus](07_osa/harjoitukset/)** sekä **[autot harjoitus](07_osa/harjoitukset/autot/)**
 
