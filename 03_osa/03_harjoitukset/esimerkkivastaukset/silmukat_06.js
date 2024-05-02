@@ -7,11 +7,30 @@ Lopetettuaan ohjelma laskee ja näyttää kaikkien syötettyjen numeroiden keski
 let summa = 0;
 let lukujenMaara = 0;
 
+while (true) {
+    let numero = parseFloat(prompt("Syötä numero:"));
 
+    summa += numero;
+    lukujenMaara++;
+    let vastaus;
+    
+    do {
+        vastaus = prompt("Haluatko jatkaa numeroiden antamista? (k/e)");
 
+        if (vastaus !== 'k' && vastaus !== 'e') {
+            // Jos vastaus ei ole 'k' tai 'e', näytä ilmoitus ja pyydä uutta vastausta
+            alert("Virheellinen syöte. Vastaa 'k' tai 'e'.");
+        }
+    } while (vastaus !== 'k' && vastaus !== 'e');
 
-let keskiarvo = summa/lukujenMaara;
-console.log("Lopussa lukujen summa on:", summa)
-console.log("Lopussa lukujen keskiarvo on:", keskiarvo)
-console.log("Isoin annettu luku on:", maxLuku)
-console.log("Pienin annettu luku on:", minLuku)
+    // Jos vastaus on 'e', lopeta
+    if (vastaus === 'e') {
+        break;
+    }
+}
+
+// Laske keskiarvo
+let keskiarvo = summa / lukujenMaara;
+
+// Näytä keskiarvo
+console.log("Kaikkien syötettyjen numeroiden keskiarvo:", keskiarvo);
