@@ -44,6 +44,14 @@ Arvosanan antaa Laura ja palautusohjeet tulevat ItsLearningiin.
   - [demo strict moden käytöstä](07_osa/demo/strict.js)
   - [virheiden käsittely](07_osa/virheidenkäsittely.md)
   - **[try-catch harjoitus](07_osa/harjoitukset/)** sekä **[autot harjoitus](07_osa/harjoitukset/autot/)**
+- **8 osa:**
+  - [Ketjutus](08_osa/01_ketjutus.md)
+  - [DOM-muokkaus](08_osa/02_DOM_muokkaus.md)
+  - [Purkaminen](08_osa/03_purkaminen.md)
+  - [Spread ja rest -operaattorit](08_osa/04_spread_ja_rest.md)
+  - [Asynkroninen JavaScript](08_osa/05_asynkroninenJS.md)
+  - [Fetch ja API:n käyttö aloittelijalle](08_osa/06_fetch_ja_API.md)
+  - [EcmaScript - JavaScriptin kehitysvaiheita](08_osa/07_EcmaScript.md)
 
 Materiaali on käännetty ja muokattu [Margit Tennosaarin](https://github.com/margittennosaar) kurssipohjasta.
 GNU Free Documentation License (GNU FDL)
