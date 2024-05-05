@@ -1,6 +1,6 @@
 Materiaalit päivittyvät kurssin aikana, kunhan ne saadaan käännettyä.
 Jos olet saanut kaikki tehtävät jo tehtyä ja kaipaat lisätehtäviä, ota yhteys Lauraan.
-Arvosanan antaa Laura ja palautusohjeet tulevat ItsLearningiin.
+**Arvosanan antaa Laura ja palautusohjeet ovat ItsLearningissä.**
 
 ## Sisällysluottelo:
 
