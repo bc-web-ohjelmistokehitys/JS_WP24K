@@ -64,7 +64,7 @@ Tässä lista yleisimmistä tapahtumatyypeistä, joihin aloittelijoiden tulisi t
 15. **`resize`**: Tapahtuu, kun asiakirjanäkymää tai elementtiä on muutettu.
 16. **`scroll`**: Laukaistaan, kun asiakirjanäkymä tai elementti vieritetään.
 17. **`focus`**: Käynnistyy, kun elementti saa fokuksen.
-18. **`blur`**: Laikaistaan, kun elementti menettää fokuksen.
+18. **`blur`**: Laukaistaan, kun elementti menettää fokuksen.
 
 Nämä tapahtumat kattavat laajan valikoiman vuorovaikutuksia, käyttäjän syötteestä hiirellä ja näppäimistöllä sivuston elinkaarensa tapahtumiin. Kiinnittämällä tapahtumakuuntelijoita näihin tapahtumiin voit tehdä verkkosivuistasi dynaamisia ja vuorovaikutteisia käyttäjän toimien perusteella.
 
