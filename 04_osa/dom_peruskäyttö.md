@@ -41,7 +41,7 @@ Tässä esimerkissä tapahtumankäsittelijä lisätään painikkeelle, jonka tun
 - **Vastuun jakaminen**: `addEventListener`-metodin käyttö JavaScriptissä erottaa HTML-rakenteen käyttäytymisestä, mikä noudattaa verkkokehityksen parhaita käytäntöjä.
 - **Joustavuus**: JavaScriptistä kutsutut funktiot mahdollistavat monimutkaisemmat vuorovaikutukset, kuten useiden tapahtumakuuntelijoiden liittämisen samaan elementtiin tai tapahtumakuuntelijoiden dynaaminen lisääminen tai poistaminen.
 - **Yhteensopivuus**: Vaikka HTML:n sisäiset tapahtumankäsittelijät (`onclick` HTML:ssä) ovat laajasti tuettuja ja helppokäyttöisiä, ne tarjoavat vähemmän joustavuutta ja voivat johtaa vaikeammin ylläpidettävään ja vianjäljitykseen vaikeasti ylläpidettävään koodiin.
-- Eli vaikka funktion kutsuminen HTML:stä on mahdollista ja usein toimivaa, kannattaa suosia tapahtuman
+- Eli vaikka funktion kutsuminen HTML:stä on mahdollista ja usein toimivaa, kannattaa suosia tapahtumankäsittelijää JavaScriptin puolella.
 
 ## Tapahtumatyypit (eng. _event types_)
 
