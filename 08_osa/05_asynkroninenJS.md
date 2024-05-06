@@ -50,7 +50,7 @@ haeData((data) => console.log(data));
 
 ### Takaisinkutsuhelvetti
 
-Takaisinkutsuhelvetti, tunnetaan myös nimellä "Perikadon pyramidiksi", on tilanne, jossa takaisinkutsut ovat upotettu toisten takaisinkutsujen sisään useiden tasojen syvyyteen, mikä tekee koodista vaikeasti luettavan, ylläpidettävän ja debuggattavan. Se tapahtuu usein ketjumaisessa asynkronisessa JavaScript-koodissa, jossa useat toiminnot riippuvat edellisten suorittamisesta. Tässä yksinkertaistettu esimerkki käsitteen havainnollistamiseksi:
+Takaisinkutsuhelvetti, tunnetaan myös nimellä "Perikadon pyramidi", on tilanne, jossa takaisinkutsut ovat upotettu toisten takaisinkutsujen sisään useiden tasojen syvyyteen, mikä tekee koodista vaikeasti luettavan, ylläpidettävän ja debuggattavan. Se tapahtuu usein ketjumaisessa asynkronisessa JavaScript-koodissa, jossa useat toiminnot riippuvat edellisten suorittamisesta. Tässä yksinkertaistettu esimerkki käsitteen havainnollistamiseksi:
 
 ```javascript
 getData(function (a) {
