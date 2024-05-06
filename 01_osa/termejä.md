@@ -51,4 +51,4 @@ On tärkeää huomata, että `null` on erillinen arvo **`undefined`**-arvosta, v
 
 "**Nullish**" viittaa JavaScriptissä arvoihin, jotka ovat joko `null` tai `undefined`. Näitä arvoja pidetään "nollankaltaisina" tai "nullish" arvoina, ja ne ovat toistensa lähellä olevia käsitteitä. Käytännössä nullish-arvot osoittavat "tyhjää" tai "olemattomuutta".
 
-Nullish-arvojen ymmärtäminen on tärkeää, koska niitä käytetään usein ehdollisissa lauseissa tai arvon tarkistamisessa ennen toimintojen suorittamista. Esimerkiksi [valinnaisessa ketjuttamisessa (`?.`)](../08_osa/ketjutus.md), jota käytetään nullish-arvojen aiheuttamien virheiden estämiseen, varmistetaan, että arvoa käytetään vain, jos se ei ole `null` tai `undefined`.
+Nullish-arvojen ymmärtäminen on tärkeää, koska niitä käytetään usein ehdollisissa lauseissa tai arvon tarkistamisessa ennen toimintojen suorittamista. Esimerkiksi [valinnaisessa ketjuttamisessa (`?.`)](../08_osa/01_ketjutus.md), jota käytetään nullish-arvojen aiheuttamien virheiden estämiseen, varmistetaan, että arvoa käytetään vain, jos se ei ole `null` tai `undefined`.

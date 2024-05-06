@@ -36,7 +36,7 @@ async function haeData() {
 
 ## Takaisinkutsufunktiot (Callbacks)
 
-Takaisinkutsufunktio on funktio, joka annetaanargumenttina toiseen funktioon suoritettavaksi myöhemmin, ja sitä käytetään usein vanhemmissa asynkronisissa JavaScript-ratkaisuissa.
+Takaisinkutsufunktio on funktio, joka annetaan argumenttina toiseen funktioon suoritettavaksi myöhemmin, ja sitä käytetään usein vanhemmissa asynkronisissa JavaScript-ratkaisuissa.
 
 ```javascript
 function haeData(takaisinkutsu) {
