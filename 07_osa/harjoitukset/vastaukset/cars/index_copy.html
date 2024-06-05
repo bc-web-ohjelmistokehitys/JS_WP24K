@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cars demo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cars database</h1>
+      <form id="searchForm">
+        <label for="search">Licence</label>
+        <input type="text" id="search" />
+        <button type="submit">Search car</button>
+      </form>
+      <div><p id="searchResult"></p></div>
+    </header>
+    <main>
+      <h2>Insert car data</h2>
+      <form id="addCar">
+        <div class="form_group">
+          <label for="licence">Licence</label>
+          <input type="text" id="licence" />
+        </div>
+        <div class="form_group">
+          <label for="maker">Maker</label>
+          <input type="text" id="maker" />
+        </div>
+        <div class="form_group">
+          <label for="model">Model</label>
+          <input type="text" id="model" />
+        </div>
+        <div class="form_group">
+          <label for="owner">Owner</label>
+          <input type="text" id="owner" />
+        </div>
+        <div class="form_group">
+          <label for="price">Price</label>
+          <input type="number" id="price" />
+        </div>
+        <div class="form_group">
+          <label for="color">Color</label>
+          <input type="color" id="color" value="#000000" />
+        </div>
+        <button type="submit">Add car</button>
+        <button type="reset">Reset form</button>
+      </form>
+      <table id="carsTable">
+        <tr>
+          <th>Licence</th>
+          <th>Maker</th>
+          <th>Model</th>
+          <th>Owner</th>
+          <th>Price</th>
+          <th>Color</th>
+        </tr>
+      </table>
+    </main>
+    <footer></footer>
+    <script src="main copy.js"></script>
+  </body>
+</html>
