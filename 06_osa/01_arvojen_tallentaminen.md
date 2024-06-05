@@ -1,4 +1,4 @@
-Tieto voidaan JavaScriptissä tallentaa muuttujiin, taulukoihin ja olioihin, joilla kaikilla on omat käyttötarkoituksensa ja ominaisuutensa.
+Ohjelman käytettämät arvot voidaan JavaScriptissä tallentaa muuttujiin, taulukoihin ja olioihin, joilla kaikilla on omat käyttötarkoituksensa ja ominaisuutensa.
 
 1. **Muuttujat:**
 
