@@ -1,5 +1,3 @@
-Materiaalit päivittyvät kurssin aikana, kunhan ne saadaan käännettyä.
-Jos olet saanut kaikki tehtävät jo tehtyä ja kaipaat lisätehtäviä, ota yhteys Lauraan.
 **Arvosanan antaa Laura ja palautusohjeet ovat ItsLearningissä.**
 
 ## Sisällysluottelo:
@@ -34,16 +32,18 @@ Jos olet saanut kaikki tehtävät jo tehtyä ja kaipaat lisätehtäviä, ota yht
   - [taulukot eli arrayt](05_osa/taulukot.md)
   - **[harjoitukset](05_osa/05_harjoitukset/)** ja **[vastaukset](05_osa/05_harjoitukset/vastaukset/)**
 - **6 osa:**
-  - [Tiedon tallentamisen eri muodot](06_osa/01_tiedon_tallentaminen.md)
+  - [Arvojen tallentamisen eri muodot](06_osa/01_arvojen_tallentaminen.md)
   - [JavaScript oliot](06_osa/02_oliot.md)
   - [olioiden metodit ja prototyyppioliot](06_osa/03_olio-metodit_ja_prototyypit.md)
   - [JSON](06_osa/04_json.md)
-  - **[olio-harjoitukset](06_osa/06_harjoitukset/)** ja **[pannukakkutilaus osa 2](06_osa/06_harjoitukset/pannukakkutilaussivu2/)**
+  - [Tiedon tallentaminen selaimeen](06_osa/05_tiedon_tallentaminen_selaimeen.md)
+  - **[olio-harjoitukset](06_osa/06_harjoitukset/)** ja **[vastaukset](06_osa/06_harjoitukset/vastaukset/)**
+  - **[pannukakkutilaus osa 2](06_osa/06_harjoitukset/pannukakkutilaussivu2/)**
 - **7 osa:**
   - [JavaScript kirjoitussäännöt](07_osa/JS_kirjoitussäännöt.md)
   - [demo strict moden käytöstä](07_osa/demo/strict.js)
   - [virheiden käsittely](07_osa/virheidenkäsittely.md)
-  - **[try-catch harjoitus](07_osa/harjoitukset/)** sekä **[autot harjoitus](07_osa/harjoitukset/autot/)**
+  - **[try-catch harjoitus](07_osa/harjoitukset/)**, **[autot harjoitus](07_osa/harjoitukset/autot/)** ja näiden **[vastaukset](07_osa/harjoitukset/vastaukset/)**
 - **8 osa:**
   - [Ketjutus](08_osa/01_ketjutus.md)
   - [DOM-muokkaus](08_osa/02_DOM_muokkaus.md)

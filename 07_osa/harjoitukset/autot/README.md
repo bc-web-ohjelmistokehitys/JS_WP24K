@@ -30,4 +30,8 @@
    - Jos vastaavaa autoa ei löydy, näytä viesti, joka ilmoittaa, ettei tuloksia löytynyt.
 
 7. **Toteuta virheenkäsittely:**
+
    - Käytä `try...catch`-lohkoja käsittelemään mahdolliset virheet, jotka voivat ilmetä, erityisesti haun aikana, kuten virheellinen syöte tai rekisterinumeroa, joka ei ole rekisterissä.
+
+8. **Bonus:**
+   - Lisää sivulle tyylimäärittelyt, jotta se näyttää selkeämmältä ja tyylikkäämmältä
