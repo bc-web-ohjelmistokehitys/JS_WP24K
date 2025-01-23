@@ -26,7 +26,8 @@ Kehitä sovellusta lisäämällä ominaisuus, joka näyttää pannukakkutilaukse
 ## Vaihe 3
 
 _Pannukakkuravintola haluaa sivun, jolta seurata ja tarvittaessa muokata tilauksia ja johon merkitä tilauksen statukseksi `valmis`, kun annos on saatu valmiiksi._
-Hyödynnä olio-ohjelmointia useiden tilausten seurantaan, tilausten statuksen päivittämiseen ja tilausten näyttämiseen erillisellä hallintasivulla. 
+
+Käytä olio-ohjelmointia useiden tilausten seurantaan, tilausten statuksen päivittämiseen ja tilausten näyttämiseen erillisellä hallintasivulla. 
 
 1. Toteuta tilausluokka:
 
