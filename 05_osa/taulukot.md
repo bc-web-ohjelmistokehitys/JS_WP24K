@@ -152,7 +152,7 @@ const taulukko = [1, 2, 3, 4, 5];
 // Tarkista, sisältääkö taulukko elementtejä, jotka ovat suurempia kuin 3
 const onkoSuurempiaKuinKolme = taulukko.some((elementti) => elementti > 3);
 
-console.log(onkoElementtejaSuurempiaKuinKolme); // Tuloste: true
+console.log(onkoSuurempiaKuinKolme); // Tuloste: true
 ```
 
 ```javascript
